@@ -12,5 +12,6 @@ void PrintArray(string[] array)
     }
     Console.WriteLine("]");
 }
-
+string[] array = { "stop", "(=", "big", "=)", "hello", "WTF", "!!!!", "GB", "Geek" };
+string[] newArray = new string[array.Length];
 
